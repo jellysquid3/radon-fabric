@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "radon",
+  "version": "${version}",
+  "name": "Radon",
+  "description": "An alternative storage format for Minecraft worlds which improves performance and reliability.",
+  "authors": [
+    "JellySquid"
+  ],
+  "contact": {
+    "homepage": "https://jellysquid.me",
+    "sources": "https://github.com/jellysquid3/radon-fabric"
+  },
+  "license": "LGPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.jellysquid.mods.radon.RadonMod"
+    ]
+  },
+  "mixins": [
+    "radon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  }
+}

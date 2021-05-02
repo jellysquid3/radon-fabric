@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.jellysquid.mods.radon.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinMinecraftServer",
+    "MixinPlayerAdvancementTracker",
+    "MixinPlayerManager",
+    "MixinSerializingRegionBasedStorage",
+    "MixinServerStatHandler",
+    "MixinServerWorld",
+    "MixinThreadedAnvilChunkStorage",
+    "MixinVersionedChunkStorage",
+    "MixinWorldSaveHandler"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
